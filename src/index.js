@@ -6,7 +6,7 @@ import App from "./App"
 import ThemeContext from "./themeContext"
 
 ReactDOM.render(
-    <ThemeContext.Provider value={"light"}>
+    <ThemeContext.Provider value={"dark"}>
         <App />
     </ThemeContext.Provider>, 
     document.getElementById("root")
